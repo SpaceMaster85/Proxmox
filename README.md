@@ -1246,7 +1246,7 @@ After the script completes, If you're dissatisfied with the default settings, cl
 
 Run in the LXC Console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/photoprism-update.sh)"
+bash -c "$(wget -qLO - https://github.com/SpaceMaster85/Proxmox/raw/main/misc/photoprism-update.sh)"
 ```
 
 
