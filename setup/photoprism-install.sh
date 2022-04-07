@@ -101,7 +101,7 @@ mkdir -p /opt/photoprism/bin
 mkdir /var/lib/photoprism
 git clone https://github.com/photoprism/photoprism.git &>/dev/null
 cd photoprism
-git checkout release &>/dev/null
+git checkout develop &>/dev/null
 echo -e "${CM}${CL} \r"
 
 echo -en "${GN} Building PhotoPrism... "
