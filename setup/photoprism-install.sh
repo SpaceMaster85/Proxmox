@@ -99,9 +99,9 @@ echo -e "${CM}${CL} \r"
 echo -en "${GN} Cloning PhotoPrism... "
 mkdir -p /opt/photoprism/bin
 mkdir /var/lib/photoprism
-git clone https://github.com/photoprism/photoprism.git &>/dev/null
+git clone https://github.com/thielepaul/photoprism.git &>/dev/null
 cd photoprism
-git checkout develop &>/dev/null
+git checkout db-api &>/dev/null
 echo -e "${CM}${CL} \r"
 
 echo -en "${GN} Building PhotoPrism... "
